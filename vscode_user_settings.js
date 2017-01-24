@@ -1,4 +1,4 @@
-// VS Code User Settings: (make sure you install Guides plugin)
+// VS Code User Settings: (make sure you install Guides plugin) - found here: https://code.visualstudio.com/Docs/customization/userandworkspace
 
 // Place your settings in this file to overwrite the default settings
 {
@@ -16,6 +16,14 @@
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
     "editor.roundedSelection": true,
     "editor.glyphMargin": false,
+     // The default end of line character.
+    "files.eol": "\r\n",
+
+    // When enabled, will trim trailing whitespace when saving a file.
+    "files.trimTrailingWhitespace": false,
+
+    // When enabled, insert a final new line at the end of the file when saving it.
+    "files.insertFinalNewline": false,
 
     "guides.indent.backgrounds": [],
 
